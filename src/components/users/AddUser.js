@@ -1,9 +1,8 @@
 import React from "react";
-
-import {styles} from '.AddUser.module.css'
+import styles from './AddUser.module.css'
 const AddUser = () => {
     return(
-        <div style={styles.add_user}>
+        <div className={styles.add_user}>
             <form>
                 <label htmlFor="username">Username</label>
                 <input id="username" type="text"/>
